@@ -6,7 +6,7 @@ pipeline {
         stage('Clone Repository') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/YOUR_USERNAME/poc19-branching-cicd.git'
+                url: 'url: 'https://github.com/lakshmipriyayadav/Poc-19-branching-cicd.git''
             }
         }
 
